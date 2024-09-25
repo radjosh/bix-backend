@@ -42,7 +42,17 @@ def test():
             "salary": 29,
             "title": "CEO"
         }},
-        {"name": "Traynre Observotron Blake-Griffen",
+        {"name": "Rob Robsbob",
+         "attributes": {
+            "salary": 29000,
+            "title": "Sales"
+        }},
+        {"name": "Alice Donut",
+         "attributes": {
+            "salary": 2000,
+            "title": "Sales"
+        }},
+        {"name": "Traynre Observotron",
          "attributes": {
             "salary": 1000,
             "title": "Grunt"
