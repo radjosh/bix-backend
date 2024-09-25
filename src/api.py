@@ -25,4 +25,26 @@ if app.config['DEBUG']:
 
 @app.route("/test/")
 def test():
-    return jsonify({"foo": "bar"})
+    # return jsonify("iw")
+    DATA = [
+        {"name": "Sleve McDichael",
+         "attributes": {
+            "salary": 100000,
+            "title": "Grunt"
+        }},
+        {"name": "Enrick Bonzalez",
+         "attributes": {
+            "salary": 1000,
+            "title": "Grunt"
+        }},
+        {"name": "Bob Bobsman",
+         "attributes": {
+            "salary": 29,
+            "title": "CEO"
+        }},
+        {"name": "Traynre Observotron Blake-Griffen",
+         "attributes": {
+            "salary": 1000,
+            "title": "Grunt"
+        }}]
+    return jsonify(DATA)
