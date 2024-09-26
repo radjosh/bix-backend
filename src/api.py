@@ -23,9 +23,8 @@ app.config['DEBUG'] = True
 if app.config['DEBUG']:
     app.config["CACHE_TYPE"] = "null"
 
-@app.route("/test/")
-def test():
-    # return jsonify("iw")
+@app.route("/bix-thing/")
+def api():
     DATA = [
         {"name": "Sleve McDichael",
          "attributes": {
@@ -39,7 +38,7 @@ def test():
         }},
         {"name": "Bob Bobsman",
          "attributes": {
-            "salary": 29,
+            "salary": 291,
             "title": "CEO"
         }},
         {"name": "Rob Robsbob",
