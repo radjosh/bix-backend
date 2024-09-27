@@ -25,6 +25,7 @@ if app.config['DEBUG']:
 
 @app.route("/bix-thing/")
 def api():
+    # post-PoC: replace with dB calls or csv/xml source, etc ie this is just PoC
     DATA = [
         {"name": "Sleve McDichael",
          "attributes": {
